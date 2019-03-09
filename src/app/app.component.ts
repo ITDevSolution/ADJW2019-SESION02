@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'web';
+  title = 'BSOFT';
+
+
+
+  public eventbinding(){
+    this.title="BSOFT RECARGADO";
+  }
 }
