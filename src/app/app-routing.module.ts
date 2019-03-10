@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {path: '', redirectTo: 'mlogin', pathMatch: 'full'},
   {path: 'mlogin', loadChildren: './login/login.module#LoginModule'},
+  {path: 'mestructura', loadChildren: 
+  './estructura/estructura.module#EstructuraModule'},
   {path: '**', redirectTo: ''} //otherwise redirect to home
 ];
 
